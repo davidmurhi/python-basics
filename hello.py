@@ -1,6 +1,7 @@
-name = input("What is your name? ")
-age = input("How old are you? ")
-city = input("What city are you in? ")
-
-print("Nice to meet you,", name)
-print("You are", age, "years old and you live in", city)
+number = int(input("Enter number "))
+if number > 0:
+    print("Positive")
+elif number < 0:
+    print("Negative")
+elif number == 0:
+    print("Zero")
